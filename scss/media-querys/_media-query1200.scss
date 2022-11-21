@@ -1,0 +1,83 @@
+@media (max-width: 1200px) {
+  
+    //MEDIA QUERY NAV
+    nav {
+       
+   
+       .container-fluid{
+         
+         .navbar-toggler{
+           padding-right: 5%;
+           span{
+             height: 4vh;
+             width: 6vw;
+           }
+         }
+       }
+   }
+   
+   nav {
+   
+     .container-fluid{
+   
+       div{
+   
+       .logo-carrito {
+   
+         width: 25px !important;
+         
+       }
+      }
+     }
+   }
+       
+   //MEDIA QUERY QUE ES BLOOM
+     
+       .grid-container-bloom {
+   
+   
+         .info-bloom {
+           z-index: 0;
+           grid-area: info-bloom;
+           margin-bottom: 20%;
+         }
+       }
+   
+        //MEDIA QUERY FOOTER
+   
+     .grid-container1 {
+       .footer {
+         
+         .footer-ul {
+           flex-direction: column;
+           height: 30vh;
+           .footer-bloom {
+             width: 15%;
+             margin-bottom: 4%;
+           }
+   
+           .li-insta {
+             margin-bottom: 4%;
+             .footer-insta {
+               
+               .img-insta {
+                 width: 2%
+               }
+             }
+           }
+   
+           .li-tiktok {
+             width: 50%;
+             margin-left: 2%;
+             margin-bottom: 4%;
+             .footer-tiktok {
+               .img-tiktok {
+                 
+                 width: 5%;
+               }
+             }
+           }
+         }
+       }
+     }
+   }

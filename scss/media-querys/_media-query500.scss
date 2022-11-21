@@ -1,0 +1,147 @@
+@media (max-width: 500px) {
+    //MEDIA QUERY HEADER
+    .header {
+      &__logoybanner {
+        display: inline-flex;
+  
+        .col-lg-2 {
+          img {
+            height: 3vh;
+            width: 20vw;
+            
+          }
+        }
+  
+        .col-lg-10 {
+          img {
+            height: 5vh;
+            width: 80vw;
+           
+          }
+        }
+      }
+    }
+  
+   //MEDIA QUERY NAV
+   nav {
+  
+    .container-fluid{
+  
+      .navbar-toggler{
+  
+        height: 6vh;
+        width: 14vw;
+        padding-right: 3%;
+  
+        span{
+          
+          height: 3vh;
+          width: 4vw;
+        }
+      }
+  
+      div{
+  
+      .logo-carrito {
+  
+        width: 20px;
+      }
+     }
+    }
+  }
+  
+  //MEDIA QUERY GALERIA
+  
+  .main{
+    &__galeria1{
+      &__galeria1__seccion1{
+        .imagen-inicio{
+          width: 50%;
+        }
+      }
+    }
+    &__galeria2{
+      &__galeria2__seccion2{
+        .imagen-inicio{
+          width: 50%;
+        }
+      }
+    }
+  }
+    //MEDIA QUERY CONTACTO
+  
+    .formulario {
+      margin-left: 0%;
+      padding-bottom: 6%;
+      margin-top: 10%;
+    }
+  
+    //MEDIA QUERY INDEX
+  
+    .titulo {
+      @include mediaStyle(inline-block, 1em, 2%);
+      margin-left: 20%;
+      color: $paleta3;
+      margin-left: 35%;
+    }
+  
+    //MEDIA QUERY INDUMENTARIA
+  
+    .titulo-indu {
+      @include mediaStyle(inline-block, 1em, 2%);
+      margin-left: 42%;
+      color: #f186b1;
+    }
+  
+    //MEDIA QUERY ACCESORIOS
+  
+    .titulo-acc {
+      @include mediaStyle(inline-block, 1em, 2%);
+      margin-left: 43%;
+      color: $paleta2;
+    }
+  
+    //MEDIA QUERY SALE
+  
+    .titulo-sale {
+      @include mediaStyle(inline-block, 1em, 2%);
+      margin-left: 49%;
+      color: $paleta5;
+    }
+  
+    //MEDIA QUERY MODAL
+  
+    .modal-body {
+      .imagen-hover {
+        width: 20%;
+      }
+      p {
+        display: flex;
+      }
+    }
+      //MEDIA QUERY QUE ES BLOOM
+    
+    .grid-container-bloom {
+      
+          .imagen-doble {
+            grid-area: imagen-doble;
+            z-index: 1;
+            margin-top: 15%;
+            .redondo {
+              width: 84%;
+              margin-left: 22%;
+              margin-bottom: 40%;
+              margin-top: 20%;
+            }
+          }
+  
+      .info-bloom {
+        z-index: 0;
+        grid-area: info-bloom;
+        margin-top: 15%;
+        margin-bottom: 20%;
+      }
+    }
+    
+  }
+  

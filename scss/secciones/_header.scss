@@ -1,0 +1,18 @@
+.header {
+    &__logoybanner {
+      display: inline-flex;
+  
+      .col-lg-2 {
+        img {
+          width: 100%;
+        }
+      }
+  
+      .col-lg-10 {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  

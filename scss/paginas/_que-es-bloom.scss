@@ -1,0 +1,42 @@
+main {
+    .grid-container-bloom {
+      display: grid;
+      grid-template-areas:
+        "imagen-doble info-bloom"
+        "imagen-doble info-bloom";
+  
+      .imagen-doble {
+        grid-area: imagen-doble;
+        z-index: 1;
+        .redondo {
+          width: 84%;
+          margin-left: 10%;
+          margin-bottom: 40%;
+          margin-top: 20%;
+        }
+      }
+      .info-bloom {
+        z-index: 0;
+        grid-area: info-bloom;
+        padding-top: 18%;
+        margin-bottom: 30%;
+        .bordes {
+          z-index: -3;
+          padding-left: 6%;
+          border: solid 5px $paleta3;
+          width: 91%;
+          .info-bloom1 {
+            z-index: -3;
+            font-size: 2em;
+            padding-top: 5%;
+          }
+          .info-bloom2 {
+            z-index: -3;
+            font-size: 1em;
+            margin-bottom: 4%;
+          }
+        }
+      }
+    }
+  }
+  

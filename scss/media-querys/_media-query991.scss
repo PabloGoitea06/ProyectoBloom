@@ -1,0 +1,98 @@
+@media (max-width: 991px) {
+    //MEDIA QUERY HEADER
+    .header {
+      &__logoybanner {
+        display: inline-flex;
+  
+        .col-lg-2 {
+          img {
+            width: $anchoMinimo - 80vw;
+          
+          }
+        }
+  
+        .col-lg-10 {
+          img {
+            width: $anchoMinimo - 20vw;
+           
+          }
+        }
+      }
+    }
+  
+    //MEDIA QUERY NAV
+    nav {
+      
+  
+      .container-fluid{
+        
+        .navbar-toggler{
+  
+          height: $altoMinimo - 94vh;
+          width: $anchoMinimo - 95vw;
+          padding-right: 5%;
+  
+          span{
+            height: $altoMinimo - 97vh;
+            width: $anchoMinimo - 97vw;
+          }
+        }
+  
+        div{
+  
+        .logo-carrito {
+  
+          width: 30px !important;
+        }
+       }
+      }
+    }
+  
+    //MEDIA QUERY SECCION GALERIA
+  
+    .titulo {
+      font-size: 1em;
+      margin-left: 43%;
+    }
+    .titulo-indu {
+      font-size: 1em;
+      margin-left: 41%;
+    }
+    .titulo-acc {
+      font-size: 1em;
+      margin-left: 43%;
+    }
+  
+    //MEDIA QUIERY SECCION MODAL
+  
+    .modal-body {
+      .imagen-hover {
+        width: 40%;
+      }
+      p {
+        display: flex;
+      }
+    }
+        //MEDIA QUERY QUE ES BLOOM
+    
+        .grid-container-bloom {
+  
+              .imagen-doble {
+                grid-area: imagen-doble;
+                z-index: 1;
+                .redondo {
+                  width: 84%;
+                  margin-left: 33%;
+                  margin-bottom: 40%;
+                  margin-top: 20%;
+                }
+              }
+          .info-bloom {
+            z-index: 0;
+            grid-area: info-bloom;
+            padding-top: 18%;
+            margin-bottom: 20%;
+          }
+        }
+  }
+  

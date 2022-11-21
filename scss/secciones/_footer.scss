@@ -1,0 +1,71 @@
+.grid-container1 {
+    display: grid;
+    grid-template-areas: "footer";
+    .footer {
+      grid-area: footer;
+      margin-bottom: 0em;
+      .footer-ul {
+        display: inline-flex;
+        list-style: none;
+        background-image: linear-gradient(to left, #f8bfe88f 35%, #ebcdd9c5 65%);
+        min-height: 20vh;
+        width: 100%;
+        margin-bottom: 0em;
+  
+        .footer-bloom {
+          width: 15%;
+          padding-top: 2%;
+          margin-left: 2%;
+  
+          &:hover {
+            background-color: rgba(85, 30, 69, 0.2);
+            color: #e62e3a;
+            border-radius: 20%;
+          }
+        }
+  
+        .li-insta {
+          .footer-insta {
+            font-family: $fuentePred;
+            @include fontStyle(large, 700, none, 1%);
+            color: $paleta2;
+            &:hover {
+              color: #e62e3a;
+              border-radius: 20%;
+            }
+            .img-insta {
+              width: 5%;
+            }
+          }
+        }
+        .li-tiktok {
+          .footer-tiktok {
+            font-family: $fuentePred;
+            @include fontStyle(large, 700, none, 0%);
+            color: $paleta2;
+            padding-top: 2%;
+            &:hover {
+              color: #e62e3a;
+              border-radius: 20%;
+            }
+            .img-tiktok {
+              width: 10%;
+            }
+          }
+        }
+        .footer-contacto {
+          .contacto {
+            font-family: $fuentePred;
+            @include fontStyle(large, 700, none, 0%);
+            color: $paleta5;
+            padding-top: 2%;
+            &:hover {
+              color: $paleta2;
+              border-radius: 20%;
+            }
+          }
+        }
+      }
+    }
+  }
+  

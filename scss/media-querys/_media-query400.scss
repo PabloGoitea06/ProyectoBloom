@@ -1,0 +1,23 @@
+@media (max-width: 400px) {
+    //MEDIA QUERY NAV
+ nav {
+  
+    .container-fluid{
+  
+      .navbar-toggler{
+  
+        height: $altoMinimo - 98vh;
+        width: $anchoMinimo - 98vw;
+  
+      }
+  
+      div{
+  
+      .logo-carrito {
+  
+        width: 20px;
+      }
+     }
+    }
+  }
+}

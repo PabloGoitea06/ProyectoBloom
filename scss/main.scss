@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+//VARIABLES
+
+@import './variables/tamanios';
+@import './variables/fuentes';
+@import './variables/colores';
+@import './variables/extend';
+
+//PÁGINAS
+
+@import './paginas/contacto';
+@import './paginas/accesorios';
+@import './paginas/indumentaria';
+@import './paginas/que-es-bloom';
+@import './paginas/sale';
+
+//SECCIONES
+@import './secciones/contenido-principal';
+@import './secciones/contenido-principal-index';
+@import './secciones/contenido-principal-accesorios';
+@import './secciones/footer';
+@import './secciones/header';
+@import './secciones/nav';
+
+//MEDIA QUERYS
+
+@import './media-querys/media-query1200';
+@import './media-querys/media-query1560';
+@import './media-querys/media-query991';
+@import './media-querys/media-query400';
+@import './media-querys/media-query500';

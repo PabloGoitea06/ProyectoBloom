@@ -1,0 +1,53 @@
+//Modal carrito de compras
+.main {
+    &__galeria1_seccion1 {
+      .imagen-inicio {
+        width: 20%;
+      }
+    }
+    &__galeria1_seccion2 {
+      .imagen-inicio {
+        width: 20%;
+      }
+    }
+  }
+  
+  //Galería de Imágenes
+  
+  .titulo {
+    margin-left: 44%;
+    color: $paleta3;
+    @extend %basePalabras;
+  }
+  
+  .main {
+    &__galeria1 {
+      &__seccion1 {
+        @include galeriaStyle(center, space-between, flex, 5%, 2%, 6%, 6%);
+  
+        .imagen-inicio {
+          border-radius: 10px;
+        }
+      }
+    }
+  
+    &__galeria2 {
+      &__seccion2 {
+        @include galeriaStyle(center, space-between, flex, 5%, 2%, 6%, 6%);
+  
+        .imagen-inicio {
+          border-radius: 10px;
+        }
+      }
+    }
+  
+    &__galeria3 {
+      &__seccion3 {
+        @include galeriaStyle(center, space-around, flex, 5%, 2%, 6%, 6%);
+  
+        .imagen-inicio {
+          border-radius: 10px;
+        }
+      }
+    }
+  }

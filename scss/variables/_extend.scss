@@ -1,0 +1,29 @@
+%basePalabras {
+    display: inline-block;
+    font-size: 2em;
+    padding-top: 2%;
+  }
+  
+  @mixin fontStyle($fuente, $tamanio, $decoracion, $margin) {
+    font-size: $fuente;
+    font-weight: $tamanio;
+    text-decoration: $decoracion;
+    margin-left: $margin;
+  }
+  
+  @mixin galeriaStyle($align, $justify, $display, $ptop, $pbot, $mleft, $mright) {
+    align-items: $align;
+    justify-content: $justify;
+    display: $display;
+    padding-top: $ptop;
+    padding-bottom: $pbot;
+    margin-left: $mleft;
+    margin-right: $mright;
+  }
+  
+  @mixin mediaStyle($display, $font, $ptop) {
+    display: $display;
+    font-size: $font;
+    padding-top: $ptop;
+  }
+  
