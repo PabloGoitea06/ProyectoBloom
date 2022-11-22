@@ -40,9 +40,18 @@
                 <a class="navbar-brand" style="margin-right: 14%; color: #935381;" href="./pages/que-es-bloom.html">¿Qué es Bloom?</a>
 
                <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="logo-carrito" src="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481303/Bloom./bolsa-de-la-compra_lyvsq7.png" alt="Logo carrito"></a>
+               <div class="text-center">
+                <!-- Button HTML (to Trigger Modal) -->
+                <a href="#myModal" class="trigger-btn" data-toggle="modal" style="margin-left: 50px;">Login</a>
+              </div>
           </div>
         </div>
       </nav>
+
+
+ 
+      
+
 <!----------                                    MODAL PARA CARRITO DE COMRPRAS                                           ----------->
 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -82,6 +91,7 @@
           </div>
         </div>
       </div>
+
       <!--                                      SECTOR GALERIA                                     -->
       <h1 class="titulo">Productos destacados</h1>
       <div class="main-index">
@@ -89,17 +99,26 @@
           <div class="row grid-boostrap pb-5">
               <div class="col-xl-6">
 
-                  <a href="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen1_bi9qhx.jpg"><img
-                          class="imagen-inicio1"
-                          src="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen1_fuo8yi.jpg"
-                          alt="Imagen"></a>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen1_fuo8yi.jpg"
+                  alt="Imagen">
+                  <div class="card-body">
+                    <h5 class="card-title">Boina Negra</h5>
+                    <p class="card-text">Precio: $1200</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
               </div>
               <div class="col-xl-6">
 
-                  <a href="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen3_vopjsj.jpg"><img
-                          class="imagen-inicio2"
-                          src="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen3_uv1qos.jpg"
-                          alt="Imagen"></a>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen3_uv1qos.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Boina Cuadrille</h5>
+                    <p class="card-text">Precio : $1000</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
               </div>
           </div>
       </div>
@@ -191,7 +210,42 @@
           </ul>
         </footer>
       </div>
+      
+
+      <!-- Modal HTML -->
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+          <div class="modal-content">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <div class="modal-header">				
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">				
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" id="emailIngresado" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                  <div class="clearfix">
+                    <label>Password</label>
+                  <input type="password" id="passIngresada" class="form-control" required="required">
+                </div>
+              </div>
+              <div class="modal-footer justify-content-between">
+                <label class="form-check-label"><input type="checkbox" id="recordar"> Remember me</label>
+                <input type="submit" class="btn btn-primary" value="Login" id="login">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>     
+
+      <script src='./js/script.js'></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </html>
