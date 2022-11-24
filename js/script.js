@@ -22,6 +22,14 @@ const usuarios = [{
     {
     nombre: 'Boina Cuadrille',
     precio: '$1000'
+    },
+    {
+    nombre: 'Pollera negra',
+    precio: '$1500'
+    },
+    {
+    nombre: 'Boina Pink',
+    precio: '$1100'
     }]
     
     
@@ -32,12 +40,15 @@ const usuarios = [{
         checkRemember = document.getElementById('recordar'),
         btnLogin = document.getElementById('login'),
         modalEl = document.getElementById('myModal'),
-        
+        modal = new bootstrap.Modal(modalEl),
         contTarjetas = document.getElementById('tarjetas'),
         elementosToggleables = document.querySelectorAll('.toggeable');
     
-        function validarUsuario(userDB, mail, pass){
-            let encontrado = userDB.find(userDB => userDB.mail == mail)
+        function validarUsuario(mail, pass, usersDB){
+            let encontrado = usersDB.find( userDB=>userDB.mail == mail)
+            console.log(encontrado);
+
+
     if (typeof encontrado === 'undefined'){
         return false;
     } else{
@@ -49,6 +60,8 @@ const usuarios = [{
     }
         }
     
+
+
         function guardarDatos(usuarioDB, storage) {
             const usuario = {
                 'name': usuarioDB.nombre,
@@ -59,16 +72,21 @@ const usuarios = [{
             storage.setItem('usuario', JSON.stringify(usuario));
         }
     
+
+
         function borrarDatos() {
             localStorage.clear();
             sessionStorage.clear();
         }
     
+
+
         function recuperarUsuario(storage) {
             return JSON.parse(storage.getItem('usuario'));
         }
     
     
+
         function mostrarInfoProducto (array){
             contTarjetas.innerHTML = '';
     
@@ -80,13 +98,15 @@ const usuarios = [{
                 <div class="card-body">
                     <p class="card-text" id="precioProducto">Precio: ${element.precio}</p>
                 </div>
-            </div>`
-    
+            </div>`;
+
+            contTarjetas.innerHTML +=html;
         });
-    
     
         }
     
+
+
     
         function presentarInfo(array, clase){
             array.forEach(element => {
@@ -95,11 +115,12 @@ const usuarios = [{
         }
     
     
+        //Esta función revisa si hay un usuario guardado en el storage, y en ese caso evita todo el proceso de login
         function estaLogueado(usuario){
     
             if (usuario){
-                saludar(usuario);
-                mostrarInfoProducto(producto);
+                saludar(usuarios);
+                mostrarInfoProducto(productos);
                 presentarInfo(elementosToggleables, 'd-none');
             }
         }
@@ -121,7 +142,7 @@ const usuarios = [{
              if(!data){
                 alert('Usuario y/o contraseña erróneos');
              }else{
-                if(checkRecordar.checked){
+                if(checkRemember.checked){
                     guardarDatos(data,localStorage);
                     saludar(recuperarUsuario(localStorage));
                 }else{
@@ -136,9 +157,20 @@ const usuarios = [{
              } 
             }
     
-        })
+        });
     
+
     
+        btnLogout.addEventListener('click', () => {
+            borrarDatos();
+            presentarInfo(elementosToggleables, 'd-none');
+        });
+
+
+
         window.onload=()=>{
             estaLogueado(recuperarUsuario(localStorage));
         }
+
+
+        
