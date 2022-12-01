@@ -93,11 +93,11 @@ function mostrarInfoProducto(array) {
 
   array.forEach((element) => {
     let html = `<div class="card cardProducto" id="tarjeta${element.nombre}">
-                <h3 class="card-header" id="nombreProducto"> Nombre: ${element.nombre}  
+                <h3 class="card-header" id="${element.nombre}"> Nombre: ${element.nombre}  
                 </h3>
                 <img src="${element.img}" alt="${element.nombre}" class="card-img-bottom" id="fotoProducto"></img>
                 <div class="card-body">
-                    <p class="card-text" id="precioProducto">Precio: ${element.precio}</p>
+                    <p class="card-text" id="Precio${element.precio}">Precio: ${element.precio}</p>
                 </div>
             </div>`;
 
@@ -115,19 +115,10 @@ function presentarInfo(array, clase) {
 //Esta función revisa si hay un usuario guardado en el storage, y en ese caso evita todo el proceso de login
 function estaLogueado(usuario) {
   if (usuario) {
-    saludar(usuarios);
     mostrarInfoProducto(productos);
     presentarInfo(elementosToggleables, "d-none");
   }
 }
-
-
-/*
-function saludar(usuario) {
-
-  nombreUsuario.innerHTML = `Bienvenido/a, <span>$(usuarios.nombre}</span>`;
-}*/
-
 
 
 btnLogin.addEventListener("click", (e) => {
@@ -163,3 +154,18 @@ btnLogout.addEventListener("click", () => {
 window.onload = () => {
   estaLogueado(recuperarUsuario(localStorage));
 };
+
+
+
+
+
+const nombreYApellido = document.getElementById("nya");
+const emailFormu = document.getElementById("email");
+const resultFormu = document.getElementById("formu");
+const btnLogueo = document.getElementById("btnEnviar");
+
+
+
+nombreYApellido.addEventListener('click', ()=>{
+  localStorage.setItem('nombreyapellido', btnLogueo.value)
+});
