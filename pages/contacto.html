@@ -88,22 +88,22 @@
         </div>
       </div>
 <!--                                                    FORMULARIO DE CONFORMIDAD                                      -->
-<div class="formulario">
+<div class="formulario" id="form">
 
-    <form action="#" method="get">
+    <form action="">
         <h1 class="dejanos-tu-comentario">Dejanos tu comentario! <img src="" alt=""></h1>
 
-        <input class="form1" id="nya" type="text" name="Nombre" placeholder="Nombre y Apellido">
+        <input id="name" class="form1" type="text" name="Nombre" placeholder="Nombre y Apellido">
 
         <br><br>
 
-        <input class="form2" id="email" type="email" name="Email" placeholder="Email@email.com">
+        <input id="email" class="form2" type="email" name="Email" placeholder="Email@email.com">
 
         <br><br>
 
         <h3 class="conformidad">¿Qué te pareció nuestra página?</h3>
 
-        <select class="conformidad" name="nivel de conformidad">
+        <select id="selector" class="conformidad" name="nivel de conformidad">
             <option value="No satisfecho">No satisfecho</option>
             <option value="Poco satisfecho">Poco satisfecho</option>
             <option value="Satisfecho">Satisfecho</option>
@@ -117,14 +117,14 @@
 
         <br><br>
 
-        <textarea class="col-text" id="formu" cols="50" rows="4" placeholder="Comenta aquí"></textarea>
+        <textarea class="col-text" id="areadetexto" cols="50" rows="4" placeholder="Comenta aquí"></textarea>
         <br><br>
 
   
-        <button type="button" class="btn btn-primary" id="btnEnviar" data-bs-toggle="modal" data-bs-target="#inputModal">Enviar</button>
+        <button id="btnEnviar" type="submit" value="Submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inputModal">Enviar</button>
         <br><br>
 
-        <input class="reset" type="reset">
+      
 
     </form>
 </div>
@@ -142,6 +142,10 @@
 </div>
 </div>
 </div>
+
+
+
+
 
       <!--                                     FOOTER                                   -->
       <div class="grid-container1">

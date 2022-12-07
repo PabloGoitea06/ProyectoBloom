@@ -18,10 +18,14 @@
   margin-left: 43%;
   padding-bottom: 6%;
   margin-top: 10%; }
-  .formulario .form1:focus {
-    background-color: #ebcdd9; }
-  .formulario .form2:focus {
-    background-color: #ebcdd9; }
+  .formulario .form1 {
+    width: 20%; }
+    .formulario .form1:focus {
+      background-color: #ebcdd9; }
+  .formulario .form2 {
+    width: 40%; }
+    .formulario .form2:focus {
+      background-color: #ebcdd9; }
   .formulario .col-text:focus {
     background-color: #ebcdd9; }
 

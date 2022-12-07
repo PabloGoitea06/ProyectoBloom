@@ -8,11 +8,15 @@
     padding-bottom: 6%;
     margin-top: 10%;
     .form1{
+width: 20%;
+
         &:focus{
             background-color: $paleta1;
+            
         }
     }
     .form2{
+        width: 40%;
         &:focus{
             background-color: $paleta1;
         }

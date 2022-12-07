@@ -53,7 +53,6 @@ const elementosToggleables = document.querySelectorAll(".toggeable");
 
 const btnLogout = document.getElementById("logout");
 
-
 function validarUsuario(usersDB, mail, pass) {
   let encontrado = usersDB.find((userDB) => userDB.mail == mail);
   console.log(encontrado);
@@ -111,7 +110,6 @@ function presentarInfo(array, clase) {
   });
 }
 
-
 //Esta función revisa si hay un usuario guardado en el storage, y en ese caso evita todo el proceso de login
 function estaLogueado(usuario) {
   if (usuario) {
@@ -120,14 +118,17 @@ function estaLogueado(usuario) {
   }
 }
 
-
 btnLogin.addEventListener("click", (e) => {
   e.preventDefault();
 
   if (!inputMailLogin.value || !inputPassLogin.value) {
     alert("Todos los campos son requeridos");
   } else {
-    let data = validarUsuario(usuarios,inputMailLogin.value,inputPassLogin.value);
+    let data = validarUsuario(
+      usuarios,
+      inputMailLogin.value,
+      inputPassLogin.value
+    );
     if (!data) {
       alert("Usuario y/o contraseña erróneos");
     } else {
@@ -155,17 +156,28 @@ window.onload = () => {
   estaLogueado(recuperarUsuario(localStorage));
 };
 
-
-
-
-
-const nombreYApellido = document.getElementById("nya");
-const emailFormu = document.getElementById("email");
-const resultFormu = document.getElementById("formu");
+const nombreYApellido = document.getElementById("name");
+const emailF= document.getElementById("email");
+const resultF = document.getElementById("areadetexto");
+const conformidad = getElementById("selector");
 const btnLogueo = document.getElementById("btnEnviar");
 
+/*
+para cuando el carrito esta vacio podemos usar :
+
+const carrito: [];
+
+carrito.length === 0 && alert ('carrito vacío');
+
+*/
 
 
-nombreYApellido.addEventListener('click', ()=>{
-  localStorage.setItem('nombreyapellido', btnLogueo.value)
-});
+document.getElementById("btnEnviar").onsubmit = function() {
+  var email = document.getElementById("name").value
+  var subject = document.getElementById("email").value
+  var body = document.getElementById("areadetexto").value
+
+  window.open('mailto:'+ email +'?subject='+ subject +'&body='+body );
+}
+
+
