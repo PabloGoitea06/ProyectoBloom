@@ -18,8 +18,37 @@
     color: $paleta3;
     @extend %basePalabras;
   }
+
+
+.item-container{
+  display: inline-flex;
+}
+
+.div-texto{
+  padding-left: 5%;
+}
+
+
+#cartContainer{
+   
+ 
+  img{
+      
+        width: 180px;
+        border-radius: 0.5em;
+      }
+    
+    }
   
-  .main-index {
+  
+
+
+
+
+
+
+
+  /* .main-index {
     div{
       div{
         div{
@@ -121,4 +150,4 @@
       }
     }
   }
-  
+   */
