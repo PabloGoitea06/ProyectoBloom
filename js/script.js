@@ -16,51 +16,6 @@ const usuarios = [
   },
 ];
 
-const productos = [
-  {
-    nombre: "Boina Negra",
-    precio: "$1200",
-  },
-  {
-    nombre: "Boina Cuadrille",
-    precio: "$1000",
-  },
-  {
-    nombre: "Pollera negra",
-    precio: "$1500",
-  },
-  {
-    nombre: "Boina Pink",
-    precio: "$1100",
-  },
-  {
-    nombre: "Pollera Cuadrille",
-    precio: "$1600",
-  },
-  {
-    nombre: "Conjunto Skin",
-    precio: "$2600",
-  },
-  {
-    nombre: "Tote Feminista",
-    precio: "$1100",
-  },
-  {
-    nombre: "Tote Sour",
-    precio: "$950",
-  },
-  {
-    nombre: "Tote Negra",
-    precio: "$1000",
-  },
-  {
-    nombre: "Tote HoneyMoon",
-    precio: "$850",
-  },
-];
-
-
-
 const inputMailLogin = document.getElementById("emailIngresado");
 
 const inputPassLogin = document.getElementById("passIngresada");
@@ -81,14 +36,11 @@ const btnLogout = document.getElementById("logout");
 
 const isLogged = localStorage.getItem("usuario");
 
-if(isLogged) {
-  document.getElementById('logout').classList.remove("d-none");
+if (isLogged) {
+  document.getElementById("logout").classList.remove("d-none");
 } else {
-  document.getElementById('logout').classList.add("d-none");
+  document.getElementById("logout").classList.add("d-none");
 }
-
-
-
 
 function removerDelCarrito(index) {
   let carrito = JSON.parse(localStorage.getItem("carrito"));
@@ -208,9 +160,8 @@ btnLogin.addEventListener("click", (e) => {
         guardarDatos(data, sessionStorage);
         recuperarUsuario(sessionStorage);
       }
-      location.reload()  
+      location.reload();
 
-    
       presentarInfo(elementosToggleables, "d-none");
     }
   }
