@@ -92,6 +92,8 @@ fetch("./js/data.json")
     throw error;
   });
 
+  
+
 function validarUsuario(usersDB, mail, pass) {
   let encontrado = usersDB.find((userDB) => userDB.mail == mail);
   console.log(encontrado);
@@ -214,3 +216,8 @@ const emailFormu = document.getElementById("email");
 const resultFormu = document.getElementById("areadetexto");
 const conformidad = document.getElementById("selector");
 const btnLogueo = document.getElementById("btnEnviar");
+
+
+function productosAgregados(index){
+  const productosFinales = JSON.parse(localStorage.getItem("carrito"));
+  }
