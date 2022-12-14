@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Boina Negra",
+    "precio": 1200,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen1_fuo8yi.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Boina Cuadrille",
+    "precio": 1000,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen3_uv1qos.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pollera Negra",
+    "precio": 1500,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565572/Bloom/images/imagen8_jccm0t.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Boina Pink",
+    "precio": 1100,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen5_gtqq4u.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Pollera Cuadrille",
+    "precio": 1600,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen7_taczzl.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Conjunto Skin",
+    "precio": 2600,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565572/Bloom/images/imagen9_oozci7.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Tote Feminista",
+    "precio": 1100,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen10_au9c1x.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Tote Sour",
+    "precio": 950,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen2_tjbwxo.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Tote Negra",
+    "precio": 1000,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen6_ig7f8r.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Tote HoneyMoon",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen4_svcb8d.jpg"
+  }
+]
