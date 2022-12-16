@@ -1,0 +1,72 @@
+[
+    {
+    "id": 19,
+    "nombre": "Pollera Negra",
+    "precio": 1500,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565572/Bloom/images/imagen8_jccm0t.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Pollera Cuadrille",
+    "precio": 1600,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen7_taczzl.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Conjunto Skin",
+    "precio": 2600,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565572/Bloom/images/imagen9_oozci7.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Falda Skin",
+    "precio": 1120,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481337/Bloom./indumentaria/FALDA-skin_iundpr.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Jumper Berry",
+    "precio": 2100,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481337/Bloom./indumentaria/JUMPER-Berry_vjofuy.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Remera Microtul Blanca",
+    "precio": 800,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481337/Bloom./indumentaria/REMERA-MICROTUL-blanca_sleacj.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Remera Microtul Lila",
+    "precio": 800,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481337/Bloom./indumentaria/remera-microtul-lila_zmuxjm.png"
+  },
+  {
+    "id": 26,
+    "nombre": "Remera Microtul Negra",
+    "precio": 800,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481338/Bloom./indumentaria/REMERA-MICROTUL-negra_lmh7un.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Remeras Microtul",
+    "precio": 800,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481338/Bloom./indumentaria/REMERAS-microtul_oxmtre.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Conjunto Skin",
+    "precio": 2500,
+    "categoria": "indumentaria",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481326/Bloom./sale/CONJUNTO-skin_u7qgx5.jpg"
+  }
+]

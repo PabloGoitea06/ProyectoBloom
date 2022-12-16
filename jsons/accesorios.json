@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tote Feminista",
+    "precio": 1100,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen10_au9c1x.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Tote Sour",
+    "precio": 950,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565570/Bloom/images/imagen2_tjbwxo.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Tote Negra",
+    "precio": 1000,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen6_ig7f8r.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Tote HoneyMoon",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen4_svcb8d.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Vincha Skin",
+    "precio": 670,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481352/Bloom./accesorios/VINCHA-skin_roqcqp.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Scrunchie Bubblegum",
+    "precio": 550,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481351/Bloom./accesorios/SCRUNCHIE-bubblegum_jw5k0g.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Barbijo Skin",
+    "precio": 600,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481351/Bloom./accesorios/BARBIJO-skin_d9qb8y.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Boina Negra",
+    "precio": 1200,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen1_fuo8yi.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Boina Cuadrille",
+    "precio": 1000,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481304/Bloom./imagen3_uv1qos.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Boina Pink",
+    "precio": 1100,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662565571/Bloom/images/imagen5_gtqq4u.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Boina Beige",
+    "precio": 1100,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/BOINA_nav1qf.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Tote Amor",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481326/Bloom./sale/TOTE-armor_azdnvj.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Tote Kindness",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/TOTE-kindness_ul0zld.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Tote Turquesa",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/TOTE-turquesa_qggbqj.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Tote Sydney",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/TOTE-sydney_uexmv9.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Tote Cuadrille",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/TOTE-cuadrill%C3%A9_qsuxaw.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Tote Jackie",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481327/Bloom./sale/TOTE-jackie_lfnbtw.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Tote Colors",
+    "precio": 850,
+    "categoria": "accesorio",
+    "imagen":"https://res.cloudinary.com/ds0ewhxit/image/upload/v1662481326/Bloom./sale/TOTE-colors_rkzkz6.jpg"
+  }
+]
